@@ -1,0 +1,27 @@
+{
+  "name": "bing-wallpaper-server",
+  "version": "0.1.0",
+  "description": "获取bing 每日壁纸",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "bing-wallpaper": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "build"
+  ],
+  "author": "matiastang",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.14",
+    "typescript": "^5.8.3"
+  }
+}
