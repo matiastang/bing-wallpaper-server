@@ -1,6 +1,7 @@
 # mt
 
 build
+.DS_Store
 
 # Logs
 logs
